@@ -1,0 +1,1237 @@
+[
+  {
+    "Description": "Save filters",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "6b14f806-d5c4-4e71-9bda-7517ac80df3c",
+        "Description": "Currency and skill gems",
+        "Enabled": true,
+        "Rarities": [
+          5,
+          4
+        ],
+        "SocketColors": []
+      },
+      {
+        "Name": "cb575c09-f430-4509-bb12-4ffde02c5628",
+        "Description": "5+ linked items",
+        "Enabled": true,
+        "MinLinks": 5
+      },
+      {
+        "Name": "abd4be19-1217-4050-9220-c9da84658e9b",
+        "Description": "Maps, Cards and fragments",
+        "Enabled": true,
+        "Types": [
+          "/Maps/",
+          "/MapFragments/",
+          "/Card/"
+        ],
+        "Rarities": []
+      },
+      {
+        "Name": "e6099b5f-e572-499e-b194-55b4e4c9da61",
+        "Description": "rare ring belt amulet",
+        "Enabled": true,
+        "Types": [
+          "/Rings/",
+          "/Belts/",
+          "/Amulets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required"
+        ]
+      },
+      {
+        "Name": "f5e5f60a-b91d-4656-ab52-7e8c0dec0a78",
+        "Description": "jewels",
+        "Enabled": true,
+        "Types": [
+          "/jewels/"
+        ],
+        "Rarities": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Pickup filters",
+    "Type": 1,
+    "Filters": [
+      {
+        "Name": "0e15ddc9-b719-41c0-b975-78ca92ad8fc9",
+        "Description": "Currency",
+        "Enabled": true,
+        "Types": [
+          "/Currency/"
+        ],
+        "NameMatchAnyRatherThanAll": true,
+        "Rarities": [
+          5
+        ]
+      },
+      {
+        "Name": "5816b733-40f2-4b2f-8b0f-1f9d4c73ae05",
+        "Description": "All rares",
+        "Enabled": true,
+        "Rarities": [
+          2
+        ]
+      },
+      {
+        "Name": "65ac012f-0b84-4867-9409-df41806a4c6c",
+        "Description": "Item types for valuable uniques",
+        "Enabled": false,
+        "Names": [
+          "Occultist's Vestment",
+          "Glorious Plate",
+          "Siege Axe",
+          "Spine Bow"
+        ],
+        "NameMatchAnyRatherThanAll": true,
+        "Rarities": [
+          0
+        ]
+      },
+      {
+        "Name": "bb6298de-fbec-42c6-b704-57164e42a6c9",
+        "Description": "Fishing rods",
+        "Enabled": true,
+        "Types": [
+          "/FishingRods/"
+        ],
+        "Rarities": []
+      },
+      {
+        "Name": "3102b67b-7fa2-4363-895a-26e8237fa51d",
+        "Description": "Divination Cards",
+        "Enabled": true,
+        "Types": [
+          "/DivinationCards/"
+        ]
+      },
+      {
+        "Name": "0d99a14c-4076-4a1a-8350-6712b6eddc0f",
+        "Description": "Leaguestones",
+        "Enabled": true,
+        "Types": [
+          "/Leaguestones/"
+        ]
+      },
+      {
+        "Name": "6249d9b7-cfd7-483d-a8f5-7fea5aa54860",
+        "Description": "Jewels",
+        "Enabled": true,
+        "Types": [
+          "/Jewels/"
+        ],
+        "Rarities": []
+      },
+      {
+        "Name": "d960ec35-debc-44da-9ed7-02713797cd1e",
+        "Description": "Labyrinth",
+        "Enabled": true,
+        "Types": [
+          "/Labyrinth/"
+        ]
+      },
+      {
+        "Name": "38c237e7-7f65-4bef-8caa-fa044753cbd1",
+        "Description": "Maps",
+        "Enabled": true,
+        "Types": [
+          "/Maps/"
+        ]
+      },
+      {
+        "Name": "0da00896-c31c-42a2-a5f0-0e0f2f9eb153",
+        "Description": "Map fragments",
+        "Enabled": true,
+        "Types": [
+          "/MapFragments/"
+        ]
+      },
+      {
+        "Name": "0bb88f03-0f17-454d-9aae-94a05c43d118",
+        "Description": "Quest and uniques",
+        "Enabled": true,
+        "Rarities": [
+          6,
+          3
+        ]
+      },
+      {
+        "Name": "ebe95013-ab5f-4119-bb0b-af1d3091a213",
+        "Description": "All skill gems",
+        "Enabled": true,
+        "Types": [
+          "/Gems/"
+        ],
+        "NameMatchAnyRatherThanAll": true,
+        "Rarities": [
+          4
+        ],
+        "MinQuality": 1
+      },
+      {
+        "Name": "f5345717-df22-4a65-b57e-a6b544cd3d22",
+        "Description": "Items worth a Chromatic Orb",
+        "Enabled": true,
+        "Rarities": [],
+        "MaxWidth": 2,
+        "MaxHeight": 2,
+        "SocketColors": [
+          "R-G-B"
+        ]
+      },
+      {
+        "Name": "510d8eec-ca72-464b-8ae4-bba03344de4a",
+        "Description": "5 and 6-linked items",
+        "Enabled": true,
+        "MinLinks": 5
+      },
+      {
+        "Name": "7c3ca5f5-c1a0-4361-aecd-12e4067c2908",
+        "Description": "6-socket items",
+        "Enabled": true,
+        "MinSockets": 6
+      },
+      {
+        "Name": "67348f0e-8dad-4e1f-91bf-11c855ec3d27",
+        "Description": "Rare accessories",
+        "Enabled": true,
+        "Types": [
+          "/Rings/",
+          "/Amulets/"
+        ],
+        "TypeMatchAnyRatherThanAll": true,
+        "Rarities": [
+          2
+        ]
+      },
+      {
+        "Name": "5c156208-85c9-44a5-ae7d-07e3f3c5cbdf",
+        "Description": "Items worth an Armourer's Scrap, Blacksmith Whetstone, or Glassblower's Bauble.",
+        "Enabled": false,
+        "Types": [
+          "Metadata/Items/Weapons/",
+          "Metadata/Items/Armours/",
+          "Metadata/Items/Flasks/"
+        ],
+        "TypeMatchAnyRatherThanAll": true,
+        "Rarities": [
+          0
+        ],
+        "MinQuality": 20,
+        "MaxQuality": 20
+      },
+      {
+        "Name": "3d303bd2-d552-4206-a5e8-72e5a1163858",
+        "Description": "Any quality flask",
+        "Enabled": true,
+        "Types": [
+          "/Flasks/"
+        ],
+        "Rarities": [],
+        "MinQuality": 15
+      },
+      {
+        "Name": "f63c12ad-461e-4292-802e-8610e9817d4f",
+        "Description": "Utility flasks",
+        "Enabled": false,
+        "Types": [
+          "/FlaskUtility"
+        ]
+      },
+      {
+        "Name": "e576cbcd-81ce-4aa6-b92e-e4b212dcd316",
+        "Description": "Talismans",
+        "Enabled": true,
+        "Types": [
+          "/Talismans/"
+        ]
+      },
+      {
+        "Name": "9550dd1a-d698-484b-bedb-7cf834519943",
+        "Description": "All 2x2 4 linked objects.",
+        "Enabled": false,
+        "MinLinks": 4,
+        "MaxWidth": 2,
+        "MaxHeight": 2
+      },
+      {
+        "Name": "ca31a82e-77ec-46a5-bb20-559355646db0",
+        "Description": "All magic items",
+        "Enabled": false,
+        "Rarities": [
+          1
+        ]
+      },
+      {
+        "Name": "2a57dd70-a076-4432-882d-27dbbc5b56c7",
+        "Description": "Perfect White Coral Rings",
+        "Enabled": false,
+        "Names": [
+          "Coral Ring"
+        ],
+        "Rarities": [
+          0
+        ],
+        "Affixes": [
+          "ImplicitStat BaseMaximumLife Value == 30"
+        ]
+      },
+      {
+        "Name": "804d0ba9-baac-4e0f-abe2-67763d1e570a",
+        "Description": "",
+        "Enabled": true
+      }
+    ]
+  },
+  {
+    "Description": "Id filters",
+    "Type": 5,
+    "Filters": [
+      {
+        "Name": "a6da090a-02e9-41be-b22c-986f3c4c38eb",
+        "Description": "Id all rares under ilvl 60.",
+        "Enabled": true,
+        "Rarities": [
+          2
+        ]
+      },
+      {
+        "Name": "fdfb60fb-4aa7-49e6-9d06-b5215b72467f",
+        "Description": "Id all magic items.",
+        "Enabled": false,
+        "Rarities": [
+          1
+        ]
+      },
+      {
+        "Name": "49a951d0-a626-4a0b-a735-6f93ef33078f",
+        "Description": "Id all rares except accessories.",
+        "Enabled": true,
+        "Types": [
+          "/Rings/",
+          "/Amulets/"
+        ],
+        "TypeMatchAnyRatherThanAll": false,
+        "Rarities": [
+          2
+        ]
+      },
+      {
+        "Name": "57882a5e-fa49-4949-a6cc-4862fffd76a5",
+        "Description": "unique",
+        "Enabled": true,
+        "Rarities": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Vendor filters",
+    "Type": 3,
+    "Filters": [
+      {
+        "Name": "632d72b8-ef3c-4b3b-b85b-2117a2494095",
+        "Description": "Unvaluable chromatic items",
+        "Enabled": true,
+        "Rarities": [
+          0,
+          1,
+          2
+        ],
+        "MaxSockets": 5,
+        "MaxLinks": 4,
+        "SocketColors": [
+          "R-G-B"
+        ]
+      },
+      {
+        "Name": "bce1294c-6b00-4a1e-898f-aa144b25cd3d",
+        "Description": "All identified rares",
+        "Enabled": true,
+        "Rarities": [
+          2
+        ],
+        "HasToBeIdentified": true
+      },
+      {
+        "Name": "af988245-20f8-4680-9eef-9ce1f9c30170",
+        "Description": "All identified rares except accessories.",
+        "Enabled": false,
+        "Types": [
+          "/Amulets/",
+          "/Rings/"
+        ],
+        "TypeMatchAnyRatherThanAll": false,
+        "Rarities": [
+          2
+        ],
+        "HasToBeIdentified": true
+      },
+      {
+        "Name": "2b480bb7-e3a4-4753-ba09-231bc9c4311c",
+        "Description": "All magics.",
+        "Enabled": true,
+        "Rarities": [
+          1
+        ]
+      },
+      {
+        "Name": "dc23ea1a-d757-4529-a3a6-62b9c3f670d9",
+        "Description": "Belts",
+        "Enabled": true,
+        "Types": [
+          "/Belts/"
+        ],
+        "Rarities": [
+          0
+        ]
+      },
+      {
+        "Name": "a70c5d65-3be4-4055-8baf-7616e0f00138",
+        "Description": "6 Socket",
+        "Enabled": true,
+        "Rarities": [
+          0,
+          1,
+          2
+        ],
+        "MinSockets": 6,
+        "MaxLinks": 4
+      },
+      {
+        "Name": "5e08e193-d12e-42f7-a73a-d4dc023321f6",
+        "Description": "unique",
+        "Enabled": true,
+        "Rarities": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Buy filters (not implemented)",
+    "Type": 4,
+    "Filters": []
+  },
+  {
+    "Description": "Save Boots",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "6df9f1be-452a-480c-8339-3829adb9f0e9",
+        "Description": "NRG Shield",
+        "Enabled": true,
+        "Names": [
+          "/Boots/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat BaseMovementVelocityPosPct Value >=  30 Required",
+          "ExplicitStat LocalEnergyShield Value >= 30 Required",
+          "ExplicitStat LocalEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "8255262c-ac55-4bc5-8ca8-3f8762dd0020",
+        "Description": "Eva Boots",
+        "Enabled": true,
+        "Names": [
+          "/Boots/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat BaseMovementVelocityPosPct Value >= 30 Required",
+          "ExplicitStat LocalBaseEvasionRating Value >= 36 Required",
+          "ExplicitStat LocalEvasionRatingPosPct Value >= 83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "c995fa3c-1bbf-4ffb-94b2-0d2dbe400122",
+        "Description": "Armour Boots",
+        "Enabled": true,
+        "Names": [
+          "/Boots/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat BaseMovementVelocityPosPct Value >= 30 Required",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating  Value >= 36 Required",
+          "ExplicitStat LocalPhysicalDamageReductionRatingPosPct Value >= 83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "07dccb65-9bd2-4655-a6cc-81a7a15e149a",
+        "Description": "Ave NRG Boots",
+        "Enabled": true,
+        "Names": [
+          "/Boots/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEvasionAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalEnergyShield Value >= 30 Optional Group 1",
+          "ExplicitStat LocalBaseEvasionRating Value >= 36 Optional Group 1",
+          "ExplicitStat BaseMovementVelocityPosPct Value >= 30 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "b8eb6b41-e5e9-402d-adab-658d79c0886b",
+        "Description": "NRG Armour boots",
+        "Enabled": true,
+        "Names": [
+          "/Boots/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >=  36 Optional Group 1",
+          "ExplicitStat LocalEnergyShield Value >= 30 Optional Group 1",
+          "ExplicitStat BaseMovementVelocityPosPct Value >= 30 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "9a39d048-e323-4ad5-8dda-583fb7c02f38",
+        "Description": "Amour Eva Boots",
+        "Enabled": true,
+        "Names": [
+          "/Boots/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat BaseMovementVelocityPosPct Value >= 30 Required",
+          "ExplicitStat LocalArmourAndEvasionPosPct Value >=  83 Required",
+          "ExplicitStat LocalBaseEvasionRating Value >= 36 Optional Group 1",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 36 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Save Helmets",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "70cec9c6-813a-40bb-9927-c17cf6fa4881",
+        "Description": "Energy Shield Helmets",
+        "Enabled": true,
+        "Names": [
+          "/Helmets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEnergyShield Value >=  49 Required",
+          "ExplicitStat LocalEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "74cb53d8-7ee8-4e14-beb6-8be4dfcbe76a",
+        "Description": "Evasion Helmets",
+        "Enabled": true,
+        "Names": [
+          "/Helmets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalBaseEvasionRating  Value >= 61 Required",
+          "ExplicitStat LocalEvasionRatingPosPct Value >=  83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "4c6872f8-8556-4771-8747-787bab8b53cf",
+        "Description": "Armour Helmets",
+        "Enabled": true,
+        "Names": [
+          "/Helmets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 61 Required",
+          "ExplicitStat LocalPhysicalDamageReductionRatingPosPct Value >= 83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "4ebb383b-2f54-4630-8048-490b497bcd7d",
+        "Description": "Evasion + Energy Shield Helmets",
+        "Enabled": true,
+        "Names": [
+          "/Helmets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEvasionAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalEnergyShield Value >= 49 Optional Group 1",
+          "ExplicitStat LocalBaseEvasionRating Value >= 61  Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      },
+      {
+        "Name": "9f8683ef-415f-4ed0-9fd8-33be4b78330e",
+        "Description": "Armor + Evasion Helmets",
+        "Enabled": true,
+        "Names": [
+          "/Helmets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEvasionPosPct Value >=  83 Required",
+          "ExplicitStat LocalBaseEvasionRating Value >= 61 Optional Group 1",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 61 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      },
+      {
+        "Name": "ff3c38d2-c2da-4d4b-9ad9-a401521a13dd",
+        "Description": "Energy Shield + Armor Helmets",
+        "Enabled": true,
+        "Names": [
+          "/Helmets/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >=  61 Optional Group 1",
+          "ExplicitStat LocalEnergyShield Value >= 49 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Save Glove",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "3e4c51ee-5076-4d96-9937-41c505b8d07f",
+        "Description": "Energy Shield Gloves",
+        "Enabled": true,
+        "Types": [
+          "/Gloves/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEnergyShield Value >=  30 Required",
+          "ExplicitStat LocalEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "348d9461-3511-47eb-baf8-42c550cfe2f2",
+        "Description": "Evasion Gloves",
+        "Enabled": true,
+        "Types": [
+          "/Gloves/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalBaseEvasionRating  Value >= 36 Required",
+          "ExplicitStat LocalEvasionRatingPosPct Value >=  83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "5e06d8ec-4670-4c5c-9707-f599bbf96101",
+        "Description": "Armor Gloves",
+        "Enabled": true,
+        "Types": [
+          "/Gloves/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 36 Required",
+          "ExplicitStat LocalPhysicalDamageReductionRatingPosPct Value >= 83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "87170f36-52ac-490e-8d50-41c7ae9c4fa2",
+        "Description": "Evasion + Energy Shield Gloves",
+        "Enabled": true,
+        "Types": [
+          "/Gloves/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEvasionAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalEnergyShield Value >= 30 Optional Group 1",
+          "ExplicitStat LocalBaseEvasionRating Value >= 36  Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      },
+      {
+        "Name": "bb2a11b0-c0a1-47d8-a0c6-f89656bccd62",
+        "Description": "Armor + Evasion Gloves",
+        "Enabled": true,
+        "Types": [
+          "/Gloves/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEvasionPosPct Value >=  83 Required",
+          "ExplicitStat LocalBaseEvasionRating Value >= 36 Optional Group 1",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 36 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      },
+      {
+        "Name": "c3e9d487-1337-4cd1-838a-2e662e872cb7",
+        "Description": "Amor + Energy Shield Gloves",
+        "Enabled": true,
+        "Types": [
+          "/Gloves/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >=  36 Optional Group 1",
+          "ExplicitStat LocalEnergyShield Value >= 30 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Save Body Armour",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "ef2e0385-0fbc-4462-9726-8d327af50ef7",
+        "Description": "Energy Shield Chests",
+        "Enabled": true,
+        "Types": [
+          "/BodyArmours/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEnergyShield Value >=  107 Required",
+          "ExplicitStat LocalEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "3e3bd882-accc-4426-951b-95fe9d164d6f",
+        "Description": "Evasion Chests",
+        "Enabled": true,
+        "Types": [
+          "/BodyArmours/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalBaseEvasionRating  Value >= 139 Required",
+          "ExplicitStat LocalEvasionRatingPosPct Value >=  83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "5de90f5b-f1f1-4a10-8f22-1228cb06730d",
+        "Description": "Armor Chests",
+        "Enabled": true,
+        "Types": [
+          "/BodyArmours"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 139 Required",
+          "ExplicitStat LocalPhysicalDamageReductionRatingPosPct Value >= 83 Required",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 1",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 1",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "f4dce185-71bb-40f8-a347-a182b9aa1e11",
+        "Description": "Evasion + Energy Shield Chests",
+        "Enabled": true,
+        "Types": [
+          "/BodyArmours/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalEvasionAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalEnergyShield Value >= 107 Optional Group 1",
+          "ExplicitStat LocalBaseEvasionRating Value >= 139  Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      },
+      {
+        "Name": "6127dc89-9882-4d84-83bc-d42a68e7b91d",
+        "Description": "Armor + Evasion Chests",
+        "Enabled": true,
+        "Types": [
+          "/BodyArmours/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEvasionPosPct Value >=  83 Required",
+          "ExplicitStat LocalBaseEvasionRating Value >= 139 Optional Group 1",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 139 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      },
+      {
+        "Name": "eeaca6d3-87e9-4599-9559-ed1c5df9437a",
+        "Description": "Armor + Energy Shield Chests ",
+        "Enabled": true,
+        "Types": [
+          "/BodyArmours/"
+        ],
+        "Rarities": [
+          2
+        ],
+        "Affixes": [
+          "ExplicitStat LocalArmourAndEnergyShieldPosPct Value >=  83 Required",
+          "ExplicitStat LocalBasePhysicalDamageReductionRating Value >= 139 Optional Group 1",
+          "ExplicitStat LocalEnergyShield Value >= 107 Optional Group 1",
+          "TotalStat BaseMaximumLife Value > 70 Required",
+          "ExplicitStat BaseChaosDamageResistancePct Value >= 26 Optional Group 2",
+          "ExplicitStat BaseLightningDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseFireDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseColdDamageResistancePct Value >= 36 Optional Group 2",
+          "ExplicitStat BaseResistAllElementsPct Value >= 15 Optional Group 2"
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Uniques",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "e3910568-cb3d-4f51-9cb7-a185a240556c",
+        "Description": "jewels",
+        "Enabled": true,
+        "Names": [
+          "Emperor's Mastery",
+          "The Red Dream",
+          "The Anima Stone",
+          "Primordial Might",
+          "Emperor's Might",
+          "Lioneye's Fall",
+          "The Green Dream",
+          "The Blue Dream",
+          "Emperor's Cunning",
+          "Inspired Learning",
+          "Energy From Within",
+          "To Dust",
+          "Intuitive Leap",
+          "Primordial Harmony",
+          "Fireborn",
+          "Grand Spectrum"
+        ],
+        "Rarities": [
+          3
+        ]
+      },
+      {
+        "Name": "a4e94e81-ee49-44e1-9f76-62268eb9c14c",
+        "Description": "flasks",
+        "Enabled": true,
+        "Names": [
+          "Taste of Hate",
+          "Vessel of Vinktar",
+          "Dying Sun",
+          "Sin's Rebirth",
+          "Blood of the Karui",
+          "Lavianga's Spirit",
+          "Lion's Roar",
+          "Zerphi's Last Breath",
+          "The Wise Oak"
+        ],
+        "Rarities": [
+          3
+        ]
+      },
+      {
+        "Name": "bcfec999-9e4e-4dc1-bcad-84f1f4ccc261",
+        "Description": "weapons",
+        "Enabled": true,
+        "Names": [
+          "Atziri's Disfavour",
+          "Brutus' Lead Sprinkler",
+          "Starforge",
+          "Void Battery",
+          "Varunastra",
+          "Doomfletch's Prism",
+          "Jorrhast's Blacksteel",
+          "Kingmaker",
+          "Uul-Netol's Embrace",
+          "Kitava's Feast",
+          "Soul Taker",
+          "Severed in Sleep",
+          "Duskdawn",
+          "Doryani's Catalyst",
+          "Tidebreaker",
+          "Mjölner",
+          "Breath of the Council",
+          "The Rippling Thoughts",
+          "Touch of Anguish",
+          "Shade of Solaris",
+          "Piscator's Vigil",
+          "Windripper",
+          "Death's Opus",
+          "Cospri's Malice",
+          "Agnerod East",
+          "Agnerod North",
+          "Agnerod West",
+          "Agnerod South",
+          "Tulfall"
+        ],
+        "Rarities": [
+          3
+        ]
+      },
+      {
+        "Name": "647f1604-aecf-47ac-90a4-8f2346f59f61",
+        "Description": "body armour",
+        "Enabled": true,
+        "Names": [
+          "Atziri's Acuity",
+          "Tukohama's Fortress",
+          "Kaom's Heart",
+          "Skyforth",
+          "The Surrender",
+          "The Gull",
+          "The Anticipation",
+          "Death's Door",
+          "The Baron",
+          "Shadows and Dust",
+          "Seven-League Step",
+          "The Tempest's Binding",
+          "Gruthkul's Pelt",
+          "Abberath's Hooves",
+          "Rigwald's Quills",
+          "Shavronne's Wrappings",
+          "Atziri's Splendour",
+          "Yriel's Fostering",
+          "Scold's Bridle",
+          "Trolltimber Spire",
+          "Belly of the Beast",
+          "Cloak of Tawm'r Isley",
+          "The Red Trail",
+          "First Piece of Storms",
+          "Second Piece of Storms",
+          "Third Piece of Storms",
+          "The Brine Crown",
+          "Inya's Epiphany",
+          "Abyssus",
+          "Esh's Visage",
+          "The Perfect Form",
+          "The Rat Cage",
+          "The Signal Fire",
+          "Cloak of Defiance",
+          "Carcass Jack",
+          "The Unshattered Will",
+          "The Formless Inferno",
+          "Rat's Nest",
+          "Esh's Mirror",
+          "Drillneck",
+          "Flesh and Spirit",
+          "Devoto's Devotion",
+          "Skin of the Loyal",
+          "Tabula Rasa"
+        ],
+        "Rarities": [
+          3
+        ]
+      },
+      {
+        "Name": "7bf6b930-15fe-4fc0-9b4d-b9798bbe6777",
+        "Description": "accessorys",
+        "Enabled": true,
+        "Names": [
+          "Headhunter",
+          "Xoph's Blood",
+          "Xoph's Heart",
+          "Presence of Chayula",
+          "The Retch",
+          "Feastbind",
+          "Voll's Devotion",
+          "Daresso's Salute",
+          "The Taming",
+          "Faminebind",
+          "The Pandemonius",
+          "The Halcyon",
+          "Gifts from Above",
+          "Shavronne's Revelation",
+          "Berek's Respite",
+          "Choir of the Storm",
+          "Bisco's Collar",
+          "Voice of the Storm",
+          "Victario's Acuity",
+          "Berek's Grip",
+          "Valako's Sign",
+          "Astramentis",
+          "Rigwald's Curse",
+          "Voideye",
+          "Death Rush",
+          "Star of Wraeclast",
+          "Hinekora's Sight",
+          "Carnage Heart",
+          "Essence Worm",
+          "Tasalio's Sign"
+        ],
+        "Rarities": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "Description": "Weapons",
+    "Type": 2,
+    "Filters": [
+      {
+        "Name": "82cb4b3d-69cb-418e-bfff-36096288e758",
+        "Description": "phys weapon",
+        "Enabled": true,
+        "Rarities": [
+          1,
+          2,
+          3
+        ],
+        "Affixes": [
+          "TotalStat LocalPhysicalDamagePosPct Value >= 100 Required",
+          "TotalStat LocalAttackSpeedPosPct Value >= 15 Optional Group 1",
+          "TotalStat LocalMinimumAddedPhysicalDamage Value >= 10 Optional Group 1",
+          "TotalStat WeaponElementalDamagePosPct Value >= 21 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "3c51dd6b-6c0d-4f99-b0db-fa759fc19e68",
+        "Description": "plus weapon",
+        "Enabled": true,
+        "Rarities": [
+          1,
+          2,
+          3
+        ],
+        "Affixes": [
+          "ExplicitStat LocalSocketedBowGemLevelPos Value >= 2 Optional Group 1",
+          "ExplicitStat LocalSocketedColdGemLevelPos Value >= 2 Optional Group 1",
+          "ExplicitStat LocalSocketedFireGemLevelPos Value >= 2 Optional Group 1",
+          "ExplicitStat LocalSocketedGemLevelPos Value >= 1 Required",
+          "ExplicitStat LocalSocketedLightningGemLevelPos Value >= 2 Optional Group 1",
+          "ExplicitStat LocalSocketedChaosGemLevelPos Value >= 2 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "fdb52b43-f4a3-4056-a865-c559421bb5e7",
+        "Description": "ele weapon",
+        "Enabled": true,
+        "Rarities": [
+          1,
+          2,
+          3
+        ],
+        "Affixes": [
+          "ExplicitStat LocalMinimumAddedColdDamage Value >= 23 Required",
+          "ExplicitStat LocalMinimumAddedFireDamage Value >= 26 Required",
+          "ExplicitStat LocalMinimumAddedLightningDamage Value >= 5 Required",
+          "ExplicitStat LocalAttackSpeedPosPct Value >= 23 Optional Group 1",
+          "ExplicitStat LocalCriticalStrikeChancePosPct Value >= 30 Optional Group 1",
+          "ExplicitStat CriticalStrikeChancePosPct Value >= 30 Optional Group 1",
+          "ExplicitStat WeaponElementalDamagePosPct Value >= 21 Optional Group 1"
+        ]
+      },
+      {
+        "Name": "0cb4e71d-c09b-40da-87e6-aaad87ce147b",
+        "Description": "caster",
+        "Enabled": true,
+        "Rarities": [
+          1,
+          2,
+          3
+        ],
+        "Affixes": [
+          "ExplicitStat ColdDamagePosPct Value >= 23 Optional Group 1",
+          "ExplicitStat FireDamagePosPct Value >= 23 Optional Group 1",
+          "ExplicitStat LightningDamagePosPct Value >= 23 Optional Group 1",
+          "ExplicitStat SpellCriticalStrikeChancePosPct Value >= 80 Optional Group 2",
+          "ExplicitStat BaseCastSpeedPosPct Value >= 17 Optional Group 2",
+          "ExplicitStat CriticalStrikeChancePosPct Value >= 30 Optional Group 2",
+          "ExplicitStat SpellDamagePosPct Value >= 60 Required"
+        ]
+      }
+    ]
+  }
+]
